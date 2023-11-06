@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu bar</title>
+    <style>
+      .menubar{
+        background-color: black;
+        width:100%;
+        height:100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      a{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        color:white;
+        text-decoration: none;
+        margin-right: 100px;
+      }
+      a:hover{
+        color:blue
+      }
+      .box{
+        width:200px;
+        height:50px;
+        background-color: #2B2E66;
+      }
+      .text{
+      color: #FFFFFF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-style: normal;
+      }
+      .text:hover{
+          color:black;
+      }
+    </style>
+</head>
+<body>
+        <div class="menubar">
+            <img src="logo.png" style="width: 80px; height:80px; margin-left: 80px; margin-right: 200px;">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Products</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <div class="box">
+              <h2 class="text">Sign up</h2>
+            </div>
+        </div>
+</body>
+</html>
